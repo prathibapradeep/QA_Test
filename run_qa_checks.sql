@@ -25,7 +25,8 @@ BEGIN
 
     FOR test_rec IN (
         SELECT code, parameter, test_sql, exp_result
-        FROM qa_tests        
+        FROM qa_tests     
+        WHERE enabled ='Y'   
     ) LOOP
         v_sql := test_rec.test_sql;  -- Start with the test_sql from the table
         
