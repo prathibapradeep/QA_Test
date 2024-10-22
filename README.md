@@ -55,14 +55,13 @@ Run the following SQL scripts in sequence:
 2. insert_tbl_qa_chk.sql - Inserts sample records into the tables.
 3. run_qa_checks.sql -  Defines the procedure to perform QA checks.
 4. exec_qa_checks.sql - Executes the QA checks based on runtime parameters.
-5. Query the results using below
+5. Query the results using below sql
 
-```
 SELECT code, executed_sql, result, status
 FROM qa_test_results
 order by run_time desc
 ;
-```
+
 
 ```
 
