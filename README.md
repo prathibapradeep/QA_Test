@@ -9,9 +9,13 @@ This project is aimed at automating quality assurance (QA) checks in a relationa
 Key objectives of the project include:
 
 Modular QA Checks: Develop a system that reads QA test configurations from a qa_tests table.
+
 Parameterized Execution: Dynamically replace SQL query parameters with actual runtime values.
+
 Automated Test Execution: Run the tests marked as enabled in the qa_tests table.
+
 Test Results Output: Display the test results, including the executed SQL and the result, in a GUI.
+
 
 **Programming Language:** Oracle PL/SQL
 
